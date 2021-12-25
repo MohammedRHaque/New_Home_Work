@@ -20,8 +20,5 @@ public class Computer {
 				+ grade);
 
 	}
-// Test message THI
-	
-	
-	//iF THERE IS A WILL THERE IS WAY
+//This is a test that properly IDE msgg transfer to git or not
 }
