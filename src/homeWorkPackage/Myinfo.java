@@ -16,7 +16,7 @@ public class Myinfo {
 
 	public void myinfo() {
 		 System.out.println(  " This all information about :" + name + "\n" + age + "\n" + sex +"\n"+  isNewyork +"\n" + Salary  );
-		
+		System.out.println("This is a test of GITHUB");
 	}
 
 

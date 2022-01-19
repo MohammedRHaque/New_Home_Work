@@ -1,6 +1,5 @@
 package Java_Selenimum;
 
-import java.sql.Driver;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -18,7 +17,7 @@ public class GetMethod {
 		public void setUp() throws InterruptedException {
 			System.setProperty("webdriver.chrome.driver",
 					"C:\\Users\\moham\\eclipse-workspace\\hm1Q2JavaBasics\\drivers\\chromedriver.exe");
-			WebDriver driver = new ChromeDriver();
+			 driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.manage().deleteAllCookies();
 			driver.get("https://portaldev.cms.gov/portal/");
